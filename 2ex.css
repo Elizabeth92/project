@@ -1,6 +1,82 @@
-﻿<style>
-.container{width:1000px; margin:0px auto;}
-.block{width:48%;height:500px;display:inline;}
-#left{float:left;}
-#right{float:right;}
-</style>
+#main {
+width: auto;
+background-color: #0F2D52;
+display:flex;
+    flex-direction:row;
+justify-content: space-around;
+
+
+
+}
+
+#left{
+    display:flex;
+    flex-direction:column;
+
+
+}
+
+
+h3, h6 {
+color: white;
+display: inline-block;
+margin: 20px;
+} 
+
+#right{
+    display:flex;
+    flex-direction:column;
+
+}
+
+
+.intro, info {
+color: grey;
+position:fixed; left:400px; top:145px;
+
+}
+#info p {
+text-align: justify;
+}
+.vertical-line {
+position:fixed; height:180px; width:1px; left: 530px; top: 160px; background: grey;
+}
+
+.headline, hl {
+position: fixed; top: 200px; left: 550px;
+}
+#hl p { 
+position: fixed;
+top: 220px;
+width: 35em;
+}
+#hl h3 {
+position: fixed; top: 140px; color: black; width: 25em; right: 325px;
+}
+#but {
+position: fixed; top: 300px; color: white; right: 685px; border-radius: 3px; background: blue; padding: 10px;
+}
+#info2 {
+position: fixed; top: 400px; color: grey; left: 400px;
+}
+.vertical-line2 {
+position:fixed; height:180px; width:1px; left: 530px; top: 410px; background: grey;
+}
+
+.headline2, hl2 {
+position: fixed; top: 300px; left: 550px;
+}
+#hl2 p { 
+position: fixed;
+top: 465px;
+width: 35em;
+}
+#hl2 h3 {
+position: fixed; top: 395px; color: black; width: 25em; right: 325px;
+}
+#but2 {
+position: fixed; top: 550px; color: white; right: 685px; border-radius: 3px; background: blue; padding: 10px;
+}
+span {
+color:blue;
+}
