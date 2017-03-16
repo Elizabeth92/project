@@ -1,64 +1,82 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="2ex.css">
-</head>
-<body>
+#main {
+width: auto;
+background-color: #0F2D52;
+display:flex;
+    flex-direction:row;
+justify-content: space-around;
 
 
-    <div id="main">
-        <div id="left">
-            <h3>Graphic headings can vary</h3>
-            <h6>
-                Graphic headings can be used a few different <br /> ways, depending on what your landing page is <br />for.
 
-                Highlight your values, specific program
-            </h6>
-        </div>
-        <div id="right">
-            <h3>Graphic headings can vary</h3>
-            <h6>
-                Graphic headings can be used a few different <br /> ways, depending on what your landing page is <br />for.
+}
 
-                Highlight your values, specific program
-            </h6><div id="middle"></div>
-            <div class="intro">
-                <div id="info">
-                    <p>13th June 2017 <br> by <span> John Anderson </span> <br> 13 comments </p>
-                </div>
-            </div>
+#left{
+    display:flex;
+    flex-direction:column;
 
-            <div class="vertical-line">
-            </div>
-            <div class="headline">
-                <div id="hl">
-                <h3>
-                    Everything up to this point should help people understand your agency
-                </h3>
-                <p>The tagline should inspire confidence and interest, focusing on the value that your overall approach offers to your audience. Use a heading typeface and keep your tagline to just a few words, and don't confuse or mystify. </p>
-                
-                    </div>
-            </div>
-<div id="but"> Continue reading </div>
-<div id="info2"> 
-                <p> 13th June 2017 <br> by <span> John Anderson </span> <br> 13 comments </p>
 
-            </div>
-<div class="vertical-line2">
-            </div>
-<div class="headline2">
-                <div id="hl2">
-                    <h3>
-                       A Tagline highlights your approach.
-                    </h3>
-                    <p>
-                       Use the right side of the grid to explain the tagline a bit more. What are your goals? How do you do your work? Write in the present tense , and stay brief here. People who are interested can find detailson internet pages.
-                    </p>
+}
 
-                </div>
-            </div>
-<div id="but2"> Continue reading </div>
-        </div>
-        </body>
-        </html>
+
+h3, h6 {
+color: white;
+display: inline-block;
+margin: 20px;
+} 
+
+#right{
+    display:flex;
+    flex-direction:column;
+
+}
+
+
+.intro, info {
+color: grey;
+position:fixed; left:400px; top:145px;
+
+}
+#info p {
+text-align: justify;
+}
+.vertical-line {
+position:fixed; height:180px; width:1px; left: 530px; top: 160px; background: grey;
+}
+
+.headline, hl {
+position: fixed; top: 200px; left: 550px;
+}
+#hl p { 
+position: fixed;
+top: 220px;
+width: 35em;
+}
+#hl h3 {
+position: fixed; top: 140px; color: black; width: 25em; right: 325px;
+}
+#but {
+position: fixed; top: 300px; color: white; right: 685px; border-radius: 3px; background: blue; padding: 10px;
+}
+#info2 {
+position: fixed; top: 400px; color: grey; left: 400px;
+}
+.vertical-line2 {
+position:fixed; height:180px; width:1px; left: 530px; top: 410px; background: grey;
+}
+
+.headline2, hl2 {
+position: fixed; top: 300px; left: 550px;
+}
+#hl2 p { 
+position: fixed;
+top: 465px;
+width: 35em;
+}
+#hl2 h3 {
+position: fixed; top: 395px; color: black; width: 25em; right: 325px;
+}
+#but2 {
+position: fixed; top: 550px; color: white; right: 685px; border-radius: 3px; background: blue; padding: 10px;
+}
+span {
+color:blue;
+}
