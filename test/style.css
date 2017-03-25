@@ -1,0 +1,81 @@
+﻿body :not(h1) {
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 14px;
+}
+h1 { 
+font-family: 'Merriweather', Georgia, serif;
+font-size: 30px;
+padding: 30px;
+width: 50%;
+}
+.sub-heading {
+width: 55%; 
+}
+.sub-heading, h1 {
+position: relative;
+left: 25%;
+text-align: center;
+}
+.white-papers {
+font-family: 'Merriweather', Georgia, serif;
+color: orange;
+font-size: 30px;
+}
+.first-block {
+display: flex;
+padding: 6em;
+justify-content: space-around;
+text-align: justify;
+padding-left: 10%;
+}
+.first-block h3, p {
+font-size: 120%;
+}
+.first-block img {
+float: left;
+width: 140px;
+height: 150px;
+padding: 20px;
+}
+.first-block__module1 {
+margin-left: 120px;
+}
+.first-block__module2 {
+margin-right: 120px;
+}
+.second-block {
+position: absolute;
+bottom: 20px;
+background-color: #313131;
+width: 99%;
+height: 60px;
+}
+.second-block p{
+height: 100%;
+display: inline;
+color: white;
+}
+.second-block img {
+width: 16px;
+height: 16px;
+border-radius: 50%;
+}
+.submission {
+position: absolute;
+bottom: 12px;
+right: 15%;
+}
+.submission__button {
+background-color: white;
+border: 2px;
+border-radius: 4px;
+padding: 10px 30px; 
+color: #313131;
+font-weight: bold;
+}
+.back-to-top {
+position: absolute;
+bottom: 22px;
+left: 20%;
+font-weight: bold;
+}
